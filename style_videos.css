@@ -1,0 +1,85 @@
+/* Body */
+
+.bckgrnd {
+    /* background-color: #37306B; */
+    background: rgb(2,0,36);
+    background: linear-gradient(330deg, rgba(2,0,36,1) 0%, rgba(21,9,121,0.8982186624649859) 31%, rgba(0,212,255,1) 100%);
+} 
+
+#head1 {
+    color: #11e385;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    background-image: url('./stone.avif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Content */
+.utubeFrames {
+    width: 420px;
+    height: 345px;
+}
+
+#frm1 {
+    position: relative;
+    left: 1rem;
+}
+
+#frm2 {
+    position: relative;
+    top: 23rem;
+    right: 25.5rem;
+}
+
+#frm3 {
+    position: relative;
+    top: 46rem;
+    right: 52rem;
+}
+h2 a{
+    text-decoration:none;
+}
+.frms {
+    margin-top: 3rem;
+    margin-bottom: 31.5rem;
+    margin-left: 3rem;;
+}
+
+.txt1 {
+    color: lightgoldenrodyellow;
+    position: relative;
+    bottom: 53rem;
+    left: 33rem;
+}
+
+.txt2 {
+    color: lightgoldenrodyellow;
+    position: relative;
+    bottom: 35rem;
+    left: 33rem;
+}   
+
+.txt3 {
+    color: lightgoldenrodyellow;
+    position: relative;
+    bottom: 17.5rem;
+    left: 33rem;
+}
+
+/* Footer */
+
+.footer_mssg {
+    color: lightcyan;
+    margin: auto;
+    text-align: center;
+}

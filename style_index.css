@@ -1,0 +1,93 @@
+/* Navbar */
+
+.nav1 {
+    background-image: linear-gradient(196deg, #8a9fb2, #5f7991);
+}
+
+/* Body */
+
+.bckgrnd {
+    /* background-color: #37306B; */
+    background: rgb(2,0,36);
+    background: linear-gradient(330deg, rgba(2,0,36,1) 0%, rgba(21,9,121,0.8982186624649859) 31%, rgba(0,212,255,1) 100%);
+} 
+
+#txt1 {
+    color: #D27685;
+    position: relative;
+    top: 12rem;
+    left: 5rem;
+    background-image: url('./stone.avif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+.home_img {
+    position: relative;
+    left: 59rem;
+    bottom: 7rem;
+    width: 20rem;
+    height: 24rem;
+    /* box-shadow: 10px 10px 30px 18px lightblue; */
+}
+
+/* Button */
+
+.b1 {
+    position: relative;
+    top: 13rem;
+    left: 11rem;
+    /* box-shadow: 1px 1px 15px 8px lightblue; */
+}
+
+.b2 {
+    position: relative;
+    top: 10rem;
+    left: 23rem;
+}
+
+.b3 {
+    position: relative;
+    top: 11rem;
+    left: 17rem;
+}
+
+/* Card */
+
+.card1 {
+    position: relative;
+    bottom: 1rem;
+    left: 5rem;
+    box-shadow: 10px 10px 30px 18px lightblue;
+}
+
+.card2 {
+    position: relative;
+    bottom: 2rem;
+    left: 47rem;
+    box-shadow: 10px 10px 30px 18px lightblue;
+}
+
+.card3 {
+    position: relative;
+    bottom: 2rem;
+    left: 5rem;
+    box-shadow: 10px 10px 30px 18px lightblue;
+}
+
+
+/* Footer */
+
+.footer_mssg {
+    color: lightcyan;
+    margin: auto;
+    text-align: center;
+}

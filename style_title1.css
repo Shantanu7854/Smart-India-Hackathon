@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bckgrnd {
+    /* background-color: #37306B; */
+    background: rgb(2,0,36);
+    background: linear-gradient(330deg, rgba(2,0,36,1) 0%, rgba(21,9,121,0.8982186624649859) 31%, rgba(0,212,255,1) 100%);
+} 
+
+/* section{
+    background-image: linear-gradient(196deg, #8a9fb2, #5f7991);
+} */
+.main-content{
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.main-content-container{
+    display: flex;
+    height: 605px;
+    justify-content: center;
+    align-items: center;
+}
+.main-content-container .video{
+    margin-right:200px;
+}
+.search-box{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.search-box h1{
+        background-image: url('./stone.avif');
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+        font-weight: 800;
+        -webkit-font-smoothing: antialiased;
+}
+#head1 {
+    color: #D27685;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* Dropdown */
+
+.drp1 {
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+    width: 15rem;
+}
+
+.drp2 {
+    position: relative;
+    top: 2rem;
+    left: 22rem;
+    width: 15rem;
+}
+
+.drp3 {
+    position: relative;
+    top: 2rem;
+    left: 40rem;
+    width: 15rem;
+}
+
+
+
+/* Button */
+
+.btn_1 {
+    position: relative;
+    top: 34rem;
+    right: 4.5rem;
+}
+
+
+/* Footer */
+
+.foot {
+    /* position: relative;
+    background-color: #37306B; */
+    margin-top: 76px;
+}
+
+.footer_mssg {
+    color: lightcyan;
+    margin: auto;
+    text-align: center;
+}

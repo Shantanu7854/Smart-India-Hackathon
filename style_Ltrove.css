@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+.bckgrnd {
+    /* background-color: #37306B; */
+    overflow-x: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(330deg, rgba(2,0,36,1) 0%, rgba(21,9,121,0.8982186624649859) 31%, rgba(0,212,255,1) 100%);
+} 
+
+/* Content */
+
+/* .search-box {
+    position: relative;
+    left: 20rem;
+} */
+
+.head1 {
+    margin: auto;
+    text-align: center;
+    background-image: url('./stone.avif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+.upload {
+    margin: 12rem 3rem 0 3rem;
+    color: lightgoldenrodyellow;
+}
+
+#text1 {
+    margin-top: 4.2rem;;
+}
+
+.vl {
+    border-left: 3px solid lightslategray;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 12rem;;
+}
+
+.txt2 {
+    position: relative;
+    bottom: 15rem;
+    left: 25rem;
+
+}
+
+.search {
+    position: relative;
+    bottom: 28rem;
+    left: 58.5rem;
+}
+
+#w3review {
+    position: relative;
+    bottom: 10rem;
+    left: 46.5rem;
+}
+
+
+/* Footer */
+
+/* .foot {
+    margin-top: 0;;
+} */
+
+.footer_mssg {
+    color: lightcyan;
+    margin: auto;
+    text-align: center;
+}
